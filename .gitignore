@@ -1,0 +1,28 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Production Builds
+dist
+build
+*.out
+
+# Environment & Secret Files (VERY IMPORTANT)
+.env
+.env.local
+.env.*.local
+backend/.env
+keypair.txt
+relayer_address.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+backend/__pycache__/
+
+# IDE & OS Files
+.DS_Store
+.vscode
+.idea
+*.log
